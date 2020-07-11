@@ -22,6 +22,8 @@ app.get('/shop', (req, res, next)=>{
     res.sendfile('./views/shop.html')
 })
 
-
+app.get('/aboutus', (req, res, next)=>{
+    res.sendfile('./views/about.html')
+})
 
 module.exports = app;
