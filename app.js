@@ -18,6 +18,10 @@ app.get('/', (req, res, next)=>{
     res.sendfile('./views/index.html')
 })
 
+app.get('/shop', (req, res, next)=>{
+    res.sendfile('./views/shop.html')
+})
+
 
 
 module.exports = app;

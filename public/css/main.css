@@ -81,7 +81,9 @@ main{
     background-image: url('/img/background.png');
     background-size:cover;
     background-repeat: no-repeat;
-    background-position: 40% 10%;
+     background-position: 40% 10%;  
+    
+    
     animation-name: fadeIn;
     animation-duration: 1.5s;
     display:flex;
@@ -149,6 +151,9 @@ main{
 .second-section a{
     text-decoration:none;
 }
+.second-section p {
+    color:#f27d59;
+}
 .second-section button{
     background-color:black;
     color:white;
@@ -164,6 +169,69 @@ main{
 .arrow{
     margin-top:10rem;
 }
+/*         shop section                       */
+
+.shop-section{
+    width:100%;  
+    text-align:center;
+    animation-name:bounceIn;
+    animation-duration:2s;
+    
+}
+
+.shop-section_container{
+    margin:2rem 4rem;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-bottom:5rem;
+    grid-row-gap:20px;
+    
+    
+}
+.shop-section img{
+    width:50%;
+    transition:transform 2s;
+
+}
+
+.shop-section img:hover{
+    transform:scale(1.6)
+}
+
+h4 {
+    color:#ff703d;
+    font-size:1.5rem;
+}
+.shop-section input{
+    padding:.5rem;
+    width:30%;
+    margin-bottom:1.5rem;
+    border:1px solid #70c1b3
+    
+}
+.shop-section input:focus{
+    border:2px solid #ff703d;
+    outline:none;
+    border-radius:5px;
+}
+.shop-section button{
+   border:none;
+   outline:none;
+   border-radius:5px;
+   padding:.5rem;
+   background-color:black;
+   color:white;
+
+}
+.shop-section button:hover{
+    color:red;
+}
+.shop-section #shop-button{
+    background-color:#70c1b3;
+    width:15%;
+    margin-bottom:5rem;
+}
+
 
 /*  footer section*/
 footer{
