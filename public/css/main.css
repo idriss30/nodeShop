@@ -262,6 +262,61 @@ width:50%;
     background-position:center;
     height:35rem;
 }
+
+
+/* sign-section                 */
+
+.sign-section{
+    margin: 2rem 6rem;
+    
+    
+}
+
+.sign-section div{
+    width:100%;
+}
+.sign-section_container{
+    margin:0 auto;
+    padding: 1rem;
+    text-align:center;
+    border:.5px solid #ff703d;
+    border-radius:7px;
+    height:70vh;
+  
+}
+
+.sign-section button:hover{
+    background-color:black;
+   
+}
+
+.sign-section input{
+    padding:.3rem;
+    margin:1rem 1.5rem;
+    width:30%;
+    
+}
+.sign-section label{
+    display:inline-block;
+    width: 130px;
+    text-align:right;
+   
+}
+.sign-section button{
+    background-color: #70c1b3;
+    color:white;
+    padding:.3rem;
+    border:none;
+    width:13rem;
+    border-radius:5px;
+    margin-top:.8rem;
+    
+
+}
+
+
+
+
 /*  footer section*/
 footer{
     margin-top:10rem;
@@ -284,7 +339,7 @@ footer a:hover{
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content:space-between;
-    background-color: #f27d59;
+    background-color:#ff703d;
     
 }
 .footer_group{
@@ -333,5 +388,16 @@ footer a:hover{
 
     .background{
         margin-top:-25rem
+    }
+}
+@media only screen and (max-width: 420px){
+    .about-section{
+        background:none;
+    }
+    .about-section_container{
+        width:100%
+    }
+    .background{
+        margin-top:-27rem
     }
 }
